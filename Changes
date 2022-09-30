@@ -1,5 +1,6 @@
 Revision history for Subs-Trace
 
+0.02    2022-09-30 Remove postref deref to work on older versions.
 0.01    Date/time
         First version, released on an unsuspecting world.
 
