@@ -69,9 +69,11 @@ sub import {
 
         # print "func=$func\n";
 
-        my $stash = ${"${pkg}::"}{$func};
+        my $stash = "$pkg\::$func";
         my $code  = *$stash{CODE};
         next if not $code;
+
+        # print "  Updated $stash\n";
 
         *$stash = sub {
             print "--> $pkg\::$func\n";
