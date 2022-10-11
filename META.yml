@@ -1,0 +1,27 @@
+---
+abstract: 'Trace all calls in a package.'
+author:
+  - 'Tim Potapov <tim.potapov@gmail.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  Module::Build: '0.4004'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4231, CPAN::Meta::Converter version 2.150010'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Subs-Trace
+provides:
+  Subs::Trace:
+    file: lib/Subs/Trace.pm
+    version: '0.07'
+requires:
+  perl: v5.10.1
+resources:
+  bugtracker: https://github.com/poti1/subs-trace/issues
+  license: http://opensource.org/licenses/artistic-license-2.0.php
+  repository: https://github.com/poti1/subs-trace
+version: '0.07'
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
